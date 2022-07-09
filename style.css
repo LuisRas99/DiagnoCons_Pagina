@@ -467,7 +467,7 @@ background: #b8ba61;
       .hero-slides .single-hero-slide {
         height: 600px; } }
     .hero-slides .single-hero-slide h4 {
-      color: #ffffff;
+      color: #adaf29;
       margin-bottom: 10px; }
       @media only screen and (max-width: 767px) {
         .hero-slides .single-hero-slide h4 {
@@ -475,6 +475,7 @@ background: #b8ba61;
     .hero-slides .single-hero-slide h2 {
       font-size: 60px;
       color: #ffffff;
+      text-shadow: 0 0 4px rgb(0, 0, 0);
       margin-bottom: 30px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .hero-slides .single-hero-slide h2 {
@@ -686,6 +687,10 @@ background: #b8ba61;
       font-size: 10px;
       color: #fbb710;
       margin-bottom: 30px; }
+    .single-stars {
+        font-size: 10px;
+        color: #fbb710;
+        margin-bottom: 30px; }
       .single-top-popular-course .popular-course-content .course-ratings .fa-star-o {
         color: #e0e3e4; }
   .single-top-popular-course .popular-course-thumb {
