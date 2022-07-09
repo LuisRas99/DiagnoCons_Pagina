@@ -1247,3 +1247,112 @@ background: #b8ba61;
     font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
+
+#tabla-precios {
+ display:inline-block;
+ width:100%;
+ margin-top:50px
+}
+
+/*Columnas*/
+
+.precio-col {
+ display:inline-block;
+ background-color:#f3f3f3;
+ width:100%;
+ max-width:500px;
+ border-radius:10px;
+ margin-bottom:50px;
+ box-shadow: 0px 2px 5px #ddd
+}
+
+@media screen and (min-width:768px) {
+ .precio-col {
+ width:32%;
+ float:left;
+ margin-right:2%
+ }
+ 
+ .precio-col:last-child {
+ margin-right:0
+ }
+}
+
+/*Headers*/
+
+.precio-col-header {
+ background-color:#b8ba61;
+ padding:20px;
+ border-top-left-radius:10px;
+ border-top-right-radius:10px
+}
+
+.precio-col:nth-child(2) .precio-col-header {
+ background-color:rgb(0, 0, 0)
+}
+
+.precio-col-header h3 {
+ color:#f3f3f3;
+ text-align:center;
+ font-size:30px;
+ font-weight:600;
+ margin-bottom:0
+}
+
+.precio-col-header p {
+ text-align:center;
+ color:#f3f3f3;
+ font-size:14px;
+ margin-bottom:0
+}
+
+/*Características*/
+
+.precio-col-features {
+ padding: 0 20px 20px 20px
+}
+
+.precio-col-features p {
+ padding:20px 0;
+ margin:0;
+ text-align:center;
+ border-top:1px solid #ddd
+}
+
+.precio-col-features p:first-child,
+.precio-col-features p:last-child {
+ border-top:none
+}
+
+/*Comprar*/
+
+.precio-col-comprar {
+ padding:10px;
+ max-width:250px;
+ text-align:center;
+ background-color:#b8ba61;
+ margin: 0 auto 20px;
+ border-radius:10px;
+ border: 2px solid #b8ba61;
+ transition: all 0.3s
+}
+
+.precio-col-comprar a {
+ color:#ffffff;
+ padding:10px;
+ font-size:20px;
+ text-transform:uppercase;
+ transition: all 0.3s
+}
+
+.precio-col-comprar:hover {
+color:#ffffff;
+ background-color:rgb(0, 0, 0);
+ border: #000000;
+ transition: all 0.3s
+}
+
+.precio-col-comprar:hover a {
+ color:#ffffff;
+ transition: all 0.3s
+}
