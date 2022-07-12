@@ -45,6 +45,11 @@ a:focus {
   font-weight: 600;
   font-size: 14px; }
 
+li{
+  color: #606060;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 500; }
 ul,
 ol {
   margin: 0; }
